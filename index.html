@@ -1,63 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>John Vichatt's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <section id="about">
-        <h1>John Vichatt</h1>
-        <p>Mechanical Engineering Student at the University of Florida</p>
-        <a href="mailto:abhijith.john3@gmail.com">Email: abhijith.john3@gmail.com</a>
-        <p>Phone: 407 714 7054</p>
-        <a href="https://linkedin.com/in/ajohn2003" target="_blank">LinkedIn</a>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Thruster Mount - Machine Intelligence Lab</h3>
-            <p><strong>What:</strong> Designed a thruster mount for submarine motors.</p>
-            <p><strong>How:</strong> Used Fusion 360 for design, PETG 3D printing, aluminum construction, and epoxy welding.</p>
-            <p><strong>Results:</strong> Improved thrust control and safety with efficient propeller guard.</p>
-        </div>
-
-        <div class="project">
-            <h3>Pan and Tilt Camera Mount - Personal Project</h3>
-            <p>Developed a camera mount capable of tracking objects using YOLO and Arduino.</p>
-            <a href="https://github.com/jkwaterbottlelol/Pan-And-Tilt-Camera-Mount" target="_blank">View on GitHub</a>
-        </div>
-    </section>
-
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Fusion 360</li>
-            <li>Arduino Programming</li>
-            <li>OpenCV</li>
-            <li>Prototyping & 3D Printing</li>
-            <li>Machine Learning Integration</li>
-        </ul>
-    </section>
-
-    <section id="github">
-        <h2>GitHub</h2>
-        <a href="https://github.com/jkwaterbottlelol/Pan-And-Tilt-Camera-Mount" target="_blank">Pan and Tilt Camera Mount Project</a>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form action="mailto:abhijith.john3@gmail.com" method="post" enctype="text/plain">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+        <title>Abhijith John Vichatt Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <header class="header">
+            <a href="#home" class="logo">Abhijith
+                <span>John Vichatt</span></a>
             
-            <label for="message">Message:</label>
-            <textarea id="message" name="message"></textarea>
+            <i class='bx bx-menu' id="menu-icon"></i>
             
-            <input type="submit" value="Send">
-        </form>
-    </section>
-</body>
+            <nav class="navbar">
+                <a href="#home" class="active" >Home</a>
+                <a href="#education">Education</a>
+                <a href="#services">Projects</a>
+                <a href="#testimonials">Resume</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <section class="home" id="home">
+            <div class="home-content">
+                <h1>Hi, It's <span>Abhijith John Vichatt</span></h1>
+                <h3 class="text-animation"> I'm a <span></span></h3>
+                <p>I am a Mechanical Engineering student at the University of Florida with a strong interest in design, robotics, and problem-solving. My education has given me a solid foundation in key engineering principles such as Computer-Aided Design, Mechanics of Materials, and Thermodynamics. I am passionate about using my technical skills to create innovative solutions and improve mechanical systems.
+
+                    I have hands-on experience in designing and building systems, collaborating on projects in both academic and competition environments. I enjoy working in teams and am always eager to learn new skills that will help me grow as an engineer. With a focus on precision and functionality, I aim to contribute meaningfully to any project I am part of.
+                    
+                    </p>
+
+                <div class="social-icons">
+                <a href="https://www.linkedin.com/in/abhijith-john-vichatt-3148621a4/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/jkwaterbottlelol"><i class='bx bxl-github'></i></a>
+                </div>
+
+                <div class="btn-group">
+                    <a href="#" class="btn">Hire</a>
+                    <a href="#contact"
+                    class="btn">Contact</a>
+                </div>
+            </div>
+                <div class="home-img">
+                    <img src="image.jpg" alt="">
+                </div>
+        </section>
+
+        <section class="education" id="education">
+            <h2 class="heading">Education</h2>
+            <div class="timeline-items">
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                        <div class="timeline-date">2021</div>
+                        <div class="timeline-content">
+                            <h3>High School</h3>
+                            <p>From a young age, I have been fascinated by how things work, particularly in the fields of mechanics and technology. My curiosity grew as I started engaging in hands-on projects, whether it was building small models or tinkering with household items. This early exposure to problem-solving and design sparked my passion for engineering, and I knew that I wanted to pursue this field professionally.</p>
+                        </div>
+                </div>
+
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                        <div class="timeline-date">2022</div>
+                        <div class="timeline-content">
+                            <h3>University</h3>
+                            <p>In August 2022, I began my Mechanical Engineering degree at the University of Florida. This marked the formal start of my engineering education, where I dove into a rigorous curriculum that included courses such as Computer-Aided Graphics and Design, Mechanics of Materials, and Thermodynamics. These courses provided me with a strong technical foundation, and I became increasingly interested in the application of engineering to solve real-world problems.</p>
+                        </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                        <div class="timeline-date">2023</div>
+                        <div class="timeline-content">
+                            <h3>Research Intern</h3>
+                            <p>During my time at UF, I sought opportunities to gain hands-on experience. I worked as a designer for the GATR Vex Robotics team, where I helped build robots for competition and performed FEA analysis to optimize their chassis. I also became a research intern at the Machine Intelligence Laboratory, where I contributed to the development of autonomous underwater vehicles for the RoboSub competition. These experiences deepened my knowledge and equipped me with practical skills in design, rapid prototyping, and collaboration.</p>
+                        </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                        <div class="timeline-date">2024</div>
+                        <div class="timeline-content">
+                            <h3>Now</h3>
+                            <p>Today, I am focused on further developing my skills and expertise in mechanical design and systems engineering. I continue to work on exciting projects, such as designing custom mechanical systems and integrating robotics with machine learning algorithms. As I move forward in my career, I am driven by a desire to innovate and create impactful solutions that push the boundaries of what is possible in mechanical engineering.</p>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <h2 class="heading">Projects</h2>
+            <img src="Portfolio-images-0.jpg" alt="first pdf" class="page1">
+            <img src="Portfolio-images-1.jpg" alt="first pdf" class="page1">
+            <img src="Portfolio-images-2.jpg" alt="first pdf" class="page1">
+
+
+        </section>
+
+        <section class="testimonials" id="testimonials">
+            <div class="testimonials-box">
+                <h2 class="heading">Resume</h2>
+                <img src="Resume.jpg" alt="Your Image" class="backlit-image">
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+        
+            <form action="">
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="text" placeholder="Full Name">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="input-box">
+                        <input type="number" placeholder="Phone Number">
+                        <input type="text"
+                        placeholder="Subject">
+                    </div>
+                </div>
+
+                <div class="input-group-2">
+                    <textarea name="" id="" cols="30"
+                    rows="10" placeholder="Message"></textarea>
+                    <input type="submit" value="Send Message" class="btn">
+                </div>
+            </form>
+        </section>
+        
+        <footer class="footer">
+            <div class="social">
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+        
+            <ul class="list">
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+
+                <li>
+                    <a href="#">Projects</a>
+                </li>
+                <li>
+                    <a href="#">About me</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">Resume</a>
+                </li>
+            </ul>
+            <p class="copyright">
+                © Amelia Morgan | All Rights Reserved
+            </p>
+        </footer>
+        
+
+
+
+        <script src="script.js"></script>
+    </body>
 </html>
